@@ -17,7 +17,7 @@ Based on graphql-dotnet (https://github.com/graphql-dotnet/graphql-dotnet ), thi
 
 7-Grouping on queries and mutations, so you can use several files (similar to web api controllers structure) to write specific query or mutation group
 
-8-Example of custom auth management. Project is not configured with auth, but you can use extension methods inside queries and mutations (see commented examples) if you configure auth in startup.cs (see .net core 3.1 guides to do this)
+8-Example of custom auth management. Project is not configured with auth, but you can use extension methods inside queries and mutations (see commented examples) if you configure auth in startup.cs (see .net 5 guides to do this)
 
 9-Lifetime at resolver level. This prevent parallel execution error with entity framework dbcontext and connection open only at service startup (because singleton)
 
